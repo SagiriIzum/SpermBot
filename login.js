@@ -14,9 +14,9 @@ const option = {
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
 };
-let email = "100061585911453";
-let password = "12345678901234567890";
-let otpkey = "7FFD PEMW HP2A 4ONV NDWC JYXZ 6F7V TER7".toLowerCase();
+let email = "điền uid vào chỗ này";
+let password = "password";
+let otpkey = "Mã 2fa".toLowerCase();
 fca_unofficial_1.default({ email, password }, option, (err, api) => {
   if (err) {
     switch (err.error) {
