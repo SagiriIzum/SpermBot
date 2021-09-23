@@ -80,7 +80,7 @@ if (!fs_extra_1.existsSync("./audio.json"))
 if (!fs_extra_1.existsSync("./data.json")) {
   let botData = {
     prefix: "/",
-    admins: [100070001477613],
+    admins: [],
     uptime: [],
     eventLog: true,
     todolist: [],
